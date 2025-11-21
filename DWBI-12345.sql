@@ -1,14 +1,20 @@
 -- Auto-generated Query Log
 -- Task ID: DWBI-12345
 -- User: sa
--- Timestamp: 2025-11-21 15:20:36
+-- Timestamp: 2025-11-21 15:31:59
 
 --------------------------------------------------
 
-
 --Custom_Task_ID: DWBI-12345
+--sheet: Join Analysis
 
---sheet: Declaration
 
-select GDNumber,Declaration_Type_Id from TestSensitiveData
-where declaration_type_ID in (111,164)
+SELECT 
+    E.EmpID,
+    E.EmpName,
+    D.DeptName,
+    E.Salary
+FROM Test_Employees E
+INNER JOIN Test_Departments D 
+    ON E.DeptID = D.DeptID
+WHERE D.DeptName = 'IT';
