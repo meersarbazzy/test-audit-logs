@@ -1,14 +1,11 @@
 -- Auto-generated Query Log
 -- Task ID: DWBI-12345
 -- User: sa
--- Timestamp: 2025-11-21 17:29:42
+-- Timestamp: 2025-12-18 15:46:46
 
 --------------------------------------------------
 
-
 --Custom_Task_ID: DWBI-12345
 
---sheet: Declaration
-
-select GDNumber,Declaration_Type_Id from TestSensitiveData
-where declaration_type_ID in (111,164)
+--sheet: pass
+SELECT Email from MyEmployeesn
