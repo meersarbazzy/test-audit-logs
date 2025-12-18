@@ -1,12 +1,16 @@
 -- Auto-generated Query Log
 -- Task ID: DWBI-12342
 -- User: sa
--- Timestamp: 2025-12-18 18:14:08
+-- Timestamp: 2025-12-18 18:38:54
 
 --------------------------------------------------
 
 --Custom_Task_ID: DWBI-12342
 
 --sheet: Pass
+
+Select Email from MyEmployeesn
+
+--sheet: Passw
 
 Select Email from MyEmployeesn
